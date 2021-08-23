@@ -1,8 +1,8 @@
 # ferb_speaks
 
-Hello freinds, thanks for checking this out.
+Hello friends, thanks for checking this out.
 
-This project is a fun translation app on Ferb's latin translation.
+This project is a fun translation app on Ferb's Latin translation.
 
 Enjoy how ferb would say what you want to say!!!
 
