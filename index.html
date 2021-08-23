@@ -5,12 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ferb Speaks</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        h1 {
+            text-align: center;
+            background-color: cadetblue;
+            width: 100%;
+            height : 10vh;
+            margin : 0 0 1.5rem 0 ;
+            padding-top: 0.5rem;
+        }
+        #textInput {
+            border : solid 1px black;
+            width : 45%;
+            height : 10vh;
+            font-size: larger;
+            margin : 1em 10% 0.5em 25%;
+            padding : 1rem;
+        }
+
+        #btnTranslate {
+            margin : 1rem 20% 1.5rem 35%;
+            background-color : cadetblue;
+            width : 20rem;
+            height : 10vh;
+            border : unset;
+            text-align: center;
+            font-size: larger;
+        }
+
+        #translate {
+            margin : 0 20% 0 35%;
+            font-size: larger;
+        }
+
+        #textOutput {
+            border : solid 1px black;
+            display : block;
+            width : 45%;
+            height : 5vh;
+            margin : 0 10% 0.5em 25%;
+            padding : 1rem;
+        }
+        
+        img {
+            vertical-align: middle;
+        }
+    </style>
 </head>
 <body>
-    <h1>This is what ferb would say!!</h1>
+    <h1>Welcome to Ferb's world of translations!!</h1>
     <textarea id="textInput" placeholder="please enter text to be translated"></textarea><br>
     <button id="btnTranslate">Translate</button><br>
-    <div >This is what ferb would say 👇</div><br>
+    <div id="translate">This is what <img src="/images/PinClipart.com_yahoo-clip-art_2625853.png" alt="ferb" height = 100> would say 👇</div><br>
     <div id="textOutput"></div>
+    <script src="app.js"></script>
 </body>
 </html>
